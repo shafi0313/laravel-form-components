@@ -1,11 +1,11 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Support;
+namespace shafi0313\LaravelFormComponents\Support;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use ProtoneMedia\LaravelFormComponents\FormDataBinder;
+use shafi0313\LaravelFormComponents\FormDataBinder;
 
 class ServiceProvider extends BaseServiceProvider
 {
@@ -29,19 +29,19 @@ class ServiceProvider extends BaseServiceProvider
         //
 
         Blade::directive('bind', function ($bind) {
-            return '<?php app(\ProtoneMedia\LaravelFormComponents\FormDataBinder::class)->bind(' . $bind . '); ?>';
+            return '<?php app(\shafi0313\LaravelFormComponents\FormDataBinder::class)->bind(' . $bind . '); ?>';
         });
 
         Blade::directive('endbind', function () {
-            return '<?php app(\ProtoneMedia\LaravelFormComponents\FormDataBinder::class)->pop(); ?>';
+            return '<?php app(\shafi0313\LaravelFormComponents\FormDataBinder::class)->pop(); ?>';
         });
 
         Blade::directive('wire', function ($modifier) {
-            return '<?php app(\ProtoneMedia\LaravelFormComponents\FormDataBinder::class)->wire(' . $modifier . '); ?>';
+            return '<?php app(\shafi0313\LaravelFormComponents\FormDataBinder::class)->wire(' . $modifier . '); ?>';
         });
 
         Blade::directive('endwire', function () {
-            return '<?php app(\ProtoneMedia\LaravelFormComponents\FormDataBinder::class)->endWire(); ?>';
+            return '<?php app(\shafi0313\LaravelFormComponents\FormDataBinder::class)->endWire(); ?>';
         });
 
         //

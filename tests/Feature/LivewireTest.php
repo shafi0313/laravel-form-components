@@ -1,17 +1,17 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Tests\Feature;
+namespace shafi0313\LaravelFormComponents\Tests\Feature;
 
 use Livewire\Component;
 use Livewire\Livewire;
-use ProtoneMedia\LaravelFormComponents\Tests\TestCase;
+use shafi0313\LaravelFormComponents\Tests\TestCase;
 
 class FormComponent extends Component
 {
     public $input        = 'a';
     public $textarea     = 'b';
     public $select       = 'c';
-    public $multi_select = ['d','e'];
+    public $multi_select = ['d', 'e'];
     public $checkbox     = true;
     public $radio        = true;
 

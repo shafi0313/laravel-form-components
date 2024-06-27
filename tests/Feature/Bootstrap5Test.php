@@ -1,8 +1,8 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Tests\Feature;
+namespace shafi0313\LaravelFormComponents\Tests\Feature;
 
-use ProtoneMedia\LaravelFormComponents\Tests\TestCase;
+use shafi0313\LaravelFormComponents\Tests\TestCase;
 
 class Bootstrap5Test extends TestCase
 {
@@ -21,7 +21,7 @@ class Bootstrap5Test extends TestCase
         $this->registerTestRoute('bootstrap-input-group');
 
         $this->visit('/bootstrap-input-group')
-            ->within('.input-group', function() {
+            ->within('.input-group', function () {
                 return $this->seeElementCount('.form-control', 2)
                     ->seeElementCount('.input-group-text', 1)
                     ->seeInElement('.input-group-text', '@');

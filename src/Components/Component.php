@@ -1,10 +1,10 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Components;
+namespace shafi0313\LaravelFormComponents\Components;
 
 use Illuminate\Support\Str;
 use Illuminate\View\Component as BaseComponent;
-use ProtoneMedia\LaravelFormComponents\FormDataBinder;
+use shafi0313\LaravelFormComponents\FormDataBinder;
 
 abstract class Component extends BaseComponent
 {

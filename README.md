@@ -2,10 +2,10 @@
 
 # Laravel Form Components
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/protonemedia/laravel-form-components.svg?style=flat-square)](https://packagist.org/packages/protonemedia/laravel-form-components)
-[![Build Status](https://img.shields.io/travis/protonemedia/laravel-form-components/master.svg?style=flat-square)](https://travis-ci.org/protonemedia/laravel-form-components)
-[![Total Downloads](https://img.shields.io/packagist/dt/protonemedia/laravel-form-components.svg?style=flat-square)](https://packagist.org/packages/protonemedia/laravel-form-components)
-[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen)](https://plant.treeware.earth/protonemedia/laravel-form-components)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/shafi0313/laravel-form-components.svg?style=flat-square)](https://packagist.org/packages/shafi0313/laravel-form-components)
+[![Build Status](https://img.shields.io/travis/shafi0313/laravel-form-components/master.svg?style=flat-square)](https://travis-ci.org/shafi0313/laravel-form-components)
+[![Total Downloads](https://img.shields.io/packagist/dt/shafi0313/laravel-form-components.svg?style=flat-square)](https://packagist.org/packages/shafi0313/laravel-form-components)
+[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen)](https://plant.treeware.earth/shafi0313/laravel-form-components)
 
 A set of Blade components to rapidly build forms with [Tailwind CSS v1](https://tailwindcss-custom-forms.netlify.app), [Tailwind CSS v2](https://tailwindcss-forms.vercel.app), [Bootstrap 4](https://getbootstrap.com/docs/4.0/components/forms/) and [Bootstrap 5](https://getbootstrap.com/docs/5.1/forms/overview/). Supports validation, model binding, default values, translations, includes default vendor styling and fully customizable!
 
@@ -17,38 +17,38 @@ A set of Blade components to rapidly build forms with [Tailwind CSS v1](https://
 
 **Did you hear about Laravel Splade? 🤩**
 
-It's the *magic* of Inertia.js with the *simplicity* of Blade. [Splade](https://github.com/protonemedia/laravel-splade) provides a super easy way to build Single Page Applications using Blade templates. Besides that magic SPA-feeling, it comes with more than ten components to sparkle your app and make it interactive, all without ever leaving Blade.
+It's the _magic_ of Inertia.js with the _simplicity_ of Blade. [Splade](https://github.com/shafi0313/laravel-splade) provides a super easy way to build Single Page Applications using Blade templates. Besides that magic SPA-feeling, it comes with more than ten components to sparkle your app and make it interactive, all without ever leaving Blade.
 
 ## Features
 
 ### 📺 Want to see this package in action? Join the live stream on November 19 at 14:00 CET: [https://youtu.be/7eNZS4U7xyM](https://youtu.be/7eNZS4U7xyM)
 
-* Components for input, textarea, select, multi-select, checkbox and radio elements.
-* Support for Tailwind v1 with [Tailwind CSS Custom Forms](https://tailwindcss-custom-forms.netlify.app).
-* Support for Tailwind v2 with [Tailwind Forms](https://tailwindcss-forms.vercel.app/).
-* Support for [Bootstrap 4 Forms](https://getbootstrap.com/docs/4.6/components/forms/).
-* Support for [Bootstrap 5 Forms](https://getbootstrap.com/docs/5.1/forms/overview/).
-* Component logic independent from Blade views, the Tailwind and Bootstrap views use the same logic.
-* Bind a target to a form (or a set of elements) to provide default values (model binding).
-* Support for [Laravel Livewire](https://laravel-livewire.com) v2.
-* Support for Spatie's [laravel-translatable](https://github.com/spatie/laravel-translatable).
-* Re-populate forms with [old input](https://laravel.com/docs/master/requests#old-input).
-* Validation errors.
-* [Form method spoofing](https://laravel.com/docs/master/routing#form-method-spoofing).
-* Components classes and Blade views fully customizable.
-* Support for prefixing the components.
+-   Components for input, textarea, select, multi-select, checkbox and radio elements.
+-   Support for Tailwind v1 with [Tailwind CSS Custom Forms](https://tailwindcss-custom-forms.netlify.app).
+-   Support for Tailwind v2 with [Tailwind Forms](https://tailwindcss-forms.vercel.app/).
+-   Support for [Bootstrap 4 Forms](https://getbootstrap.com/docs/4.6/components/forms/).
+-   Support for [Bootstrap 5 Forms](https://getbootstrap.com/docs/5.1/forms/overview/).
+-   Component logic independent from Blade views, the Tailwind and Bootstrap views use the same logic.
+-   Bind a target to a form (or a set of elements) to provide default values (model binding).
+-   Support for [Laravel Livewire](https://laravel-livewire.com) v2.
+-   Support for Spatie's [laravel-translatable](https://github.com/spatie/laravel-translatable).
+-   Re-populate forms with [old input](https://laravel.com/docs/master/requests#old-input).
+-   Validation errors.
+-   [Form method spoofing](https://laravel.com/docs/master/routing#form-method-spoofing).
+-   Components classes and Blade views fully customizable.
+-   Support for prefixing the components.
 
 ## Requirements
 
-* PHP 8.0 or higher
-* Laravel 9.0
+-   PHP 8.0 or higher
+-   Laravel 9.0
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require protonemedia/laravel-form-components
+composer require shafi0313/laravel-form-components
 ```
 
 If you're using Tailwind, make sure the right plugin ([v1](https://github.com/tailwindcss/custom-forms#install) or [v2](https://github.com/tailwindlabs/tailwindcss-forms#installation)) is installed and configured.
@@ -82,7 +82,7 @@ If you're using Tailwind, make sure the right plugin ([v1](https://github.com/ta
 </x-form>
 ```
 
-<img src="https://github.com/protonemedia/laravel-form-components/blob/master/quick-example-form.png?raw=true" width="450"  alt="Quick example form"/>
+<img src="https://github.com/shafi0313/laravel-form-components/blob/master/quick-example-form.png?raw=true" width="450"  alt="Quick example form"/>
 
 ## Preface
 
@@ -283,7 +283,7 @@ Normally you would use a `wire:model` attribute to bind a component property wit
 </x-form>
 ```
 
-Additionally, you can pass an optional modifier to the `@wire` directive. This feature was added in v2.4.0. If you're upgrading from a previous version *and* you published the Blade views, you should republish them *or* update them manually.
+Additionally, you can pass an optional modifier to the `@wire` directive. This feature was added in v2.4.0. If you're upgrading from a previous version _and_ you published the Blade views, you should republish them _or_ update them manually.
 
 ```blade
 <x-form wire:submit.prevent="submit">
@@ -297,7 +297,7 @@ It's also possible to use the `wire:model` attribute by default. You may set the
 
 ### Select elements
 
-Besides the `name` attribute, the `select` element has a required `options` attribute, which should be a simple *key-value* array.
+Besides the `name` attribute, the `select` element has a required `options` attribute, which should be a simple _key-value_ array.
 
 ```php
 $countries = [
@@ -310,7 +310,7 @@ $countries = [
 <x-form-select name="country_code" :options="$countries" />
 ```
 
-You can provide a *slot* to the `select` element as well:
+You can provide a _slot_ to the `select` element as well:
 
 ```blade
 <x-form-select name="country_code">
@@ -327,7 +327,7 @@ If you want a select element where multiple options can be selected, add the `mu
 
 You may add a `placeholder` attribute to the select element. This will prepend a disabled option.
 
-This feature was added in v3.2.0. If you're upgrading from a previous version *and* you published the Blade views, you should republish them *or* update them manually.
+This feature was added in v3.2.0. If you're upgrading from a previous version _and_ you published the Blade views, you should republish them _or_ update them manually.
 
 ```blade
 <x-form-select name="country_code" placeholder="Choose..." />
@@ -388,7 +388,6 @@ You can group checkbox and radio elements on the same horizontal row by adding a
 
 When you're not using target binding, you can use the `default` attribute to mark a radio element as checked:
 
-
 ```blade
 <x-form-group name="notification_channel" label="How do you want to receive your notifications?">
     <x-form-radio name="notification_channel" value="mail" label="Mail" default />
@@ -414,21 +413,21 @@ This will result in the following HTML:
 <input name="title[en]" value="Laravel: Up & Running" />
 ```
 
-To get the validation errors from the session, the name of the input will be mapped to a *dot* notation like `title.en`. This is how old input data is handled as well.
+To get the validation errors from the session, the name of the input will be mapped to a _dot_ notation like `title.en`. This is how old input data is handled as well.
 
 ### Customize the blade views
 
 Publish the configuration file and Blade views with the following command:
 
 ```bash
-php artisan vendor:publish --provider="ProtoneMedia\LaravelFormComponents\Support\ServiceProvider"
+php artisan vendor:publish --provider="shafi0313\LaravelFormComponents\Support\ServiceProvider"
 ```
 
-You can find the Blade views in the `resources/views/vendor/form-components` folder. Optionally, in the `form-components.php` configuration file, you can change the location of the Blade view *per* component.
+You can find the Blade views in the `resources/views/vendor/form-components` folder. Optionally, in the `form-components.php` configuration file, you can change the location of the Blade view _per_ component.
 
 #### Component logic
 
-You can bind your own component classes to any of the elements. In the `form-components.php` configuration file, you can change the class *per* component. As the logic for the components is quite complex, it is strongly recommended to duplicate the default component as a starting point and start editing. You'll find the default component classes in the `vendor/protonemedia/laravel-form-components/src/Components` folder.
+You can bind your own component classes to any of the elements. In the `form-components.php` configuration file, you can change the class _per_ component. As the logic for the components is quite complex, it is strongly recommended to duplicate the default component as a starting point and start editing. You'll find the default component classes in the `vendor/shafi0313/laravel-form-components/src/Components` folder.
 
 ### Prefix the components
 
@@ -466,7 +465,7 @@ By the default, the errors messages are positioned under the element. To show th
 
 ### Submit button
 
-The label defaults to *Submit*, but you can use the slot to provide your own content.
+The label defaults to _Submit_, but you can use the slot to provide your own content.
 
 ```blade
 <x-form-submit>
@@ -541,7 +540,7 @@ You can add [block-level help text](https://getbootstrap.com/docs/4.6/components
 
 ### Testing
 
-``` bash
+```bash
 composer test
 ```
 
@@ -555,15 +554,15 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Other Laravel packages
 
-* [`Laravel Analytics Event Tracking`](https://github.com/protonemedia/laravel-analytics-event-tracking): Laravel package to easily send events to Google Analytics.
-* [`Laravel Blade On Demand`](https://github.com/protonemedia/laravel-blade-on-demand): Laravel package to compile Blade templates in memory.
-* [`Laravel Cross Eloquent Search`](https://github.com/protonemedia/laravel-cross-eloquent-search): Laravel package to search through multiple Eloquent models.
-* [`Laravel Eloquent Scope as Select`](https://github.com/protonemedia/laravel-eloquent-scope-as-select): Stop duplicating your Eloquent query scopes and constraints in PHP. This package lets you re-use your query scopes and constraints by adding them as a subquery.
-* [`Laravel Eloquent Where Not`](https://github.com/protonemedia/laravel-eloquent-where-not): This Laravel package allows you to flip/invert an Eloquent scope, or really any query constraint.
-* [`Laravel FFMpeg`](https://github.com/protonemedia/laravel-ffmpeg): This package provides an integration with FFmpeg for Laravel. The storage of the files is handled by Laravel's Filesystem.
-* [`Laravel Paddle`](https://github.com/protonemedia/laravel-paddle): Paddle.com API integration for Laravel with support for webhooks/events.
-* [`Laravel Verify New Email`](https://github.com/protonemedia/laravel-verify-new-email): This package adds support for verifying new email addresses: when a user updates its email address, it won't replace the old one until the new one is verified.
-* [`Laravel WebDAV`](https://github.com/protonemedia/laravel-webdav): WebDAV driver for Laravel's Filesystem.
+-   [`Laravel Analytics Event Tracking`](https://github.com/shafi0313/laravel-analytics-event-tracking): Laravel package to easily send events to Google Analytics.
+-   [`Laravel Blade On Demand`](https://github.com/shafi0313/laravel-blade-on-demand): Laravel package to compile Blade templates in memory.
+-   [`Laravel Cross Eloquent Search`](https://github.com/shafi0313/laravel-cross-eloquent-search): Laravel package to search through multiple Eloquent models.
+-   [`Laravel Eloquent Scope as Select`](https://github.com/shafi0313/laravel-eloquent-scope-as-select): Stop duplicating your Eloquent query scopes and constraints in PHP. This package lets you re-use your query scopes and constraints by adding them as a subquery.
+-   [`Laravel Eloquent Where Not`](https://github.com/shafi0313/laravel-eloquent-where-not): This Laravel package allows you to flip/invert an Eloquent scope, or really any query constraint.
+-   [`Laravel FFMpeg`](https://github.com/shafi0313/laravel-ffmpeg): This package provides an integration with FFmpeg for Laravel. The storage of the files is handled by Laravel's Filesystem.
+-   [`Laravel Paddle`](https://github.com/shafi0313/laravel-paddle): Paddle.com API integration for Laravel with support for webhooks/events.
+-   [`Laravel Verify New Email`](https://github.com/shafi0313/laravel-verify-new-email): This package adds support for verifying new email addresses: when a user updates its email address, it won't replace the old one until the new one is verified.
+-   [`Laravel WebDAV`](https://github.com/shafi0313/laravel-webdav): WebDAV driver for Laravel's Filesystem.
 
 ### Security
 
@@ -571,8 +570,8 @@ If you discover any security related issues, please email pascal@protone.media i
 
 ## Credits
 
-- [Pascal Baljet](https://github.com/protonemedia)
-- [All Contributors](../../contributors)
+-   [Pascal Baljet](https://github.com/shafi0313)
+-   [All Contributors](../../contributors)
 
 ## License
 

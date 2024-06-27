@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Components;
+namespace shafi0313\LaravelFormComponents\Components;
 
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Model;
@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
-use ProtoneMedia\LaravelFormComponents\FormDataBinder;
+use shafi0313\LaravelFormComponents\FormDataBinder;
 
 trait HandlesBoundValues
 {

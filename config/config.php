@@ -1,12 +1,12 @@
 <?php
 
-use ProtoneMedia\LaravelFormComponents\Components;
+use shafi0313\LaravelFormComponents\Components;
 
 return [
     'prefix' => '',
 
     /** tailwind | tailwind-2 | tailwind-forms-simple | bootstrap-4 | bootstrap-5 */
-    'framework' => 'tailwind',
+    'framework' => 'bootstrap-5',
 
     'use_eloquent_date_casting' => false,
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents;
+namespace shafi0313\LaravelFormComponents;
 
 use Illuminate\Support\Arr;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Tests\Feature;
+namespace shafi0313\LaravelFormComponents\Tests\Feature;
 
 use Illuminate\Http\Request;
-use ProtoneMedia\LaravelFormComponents\Tests\TestCase;
+use shafi0313\LaravelFormComponents\Tests\TestCase;
 
 class MultipleSelectTest extends TestCase
 {
